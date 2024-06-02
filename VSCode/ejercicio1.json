@@ -1,0 +1,34 @@
+[
+    {
+        "nombre": "Visual Studio Code",
+        "descripción": "Visual Studio Code (VS Code) es un editor de código fuente desarrollado por Microsoft. Es conocido por su interfaz de usuario intuitiva, su amplia gama de extensiones y su gran comunidad de desarrolladores. VS Code es altamente personalizable y cuenta con características avanzadas como resaltado de sintaxis, autocompletado inteligente, integración con control de versiones y herramientas de depuración.",
+        "sitio_web": "https://code.visualstudio.com/",
+        "lenguajes_soportados": [
+            "JavaScript",
+            "C#",
+            "TypeScript",
+            "Java",
+            "Python",
+            "HTML",
+            "CSS"
+        ],
+        "plataformas_soportadas": ["Windows", "macOS", "Linux"]
+    },
+    {
+        "nombre": "Vim",
+        "descripción": "Vim es un editor de texto avanzado y altamente configurable que se destaca por su eficiencia y su potente conjunto de comandos. Es ampliamente utilizado por desarrolladores y administradores de sistemas para editar archivos de texto de manera rápida y eficiente. Vim es altamente personalizable y puede ser extendido con una amplia gama de complementos.",
+        "sitio_web": "https://www.vim.org/",
+        "lenguajes_soportados": [
+            "Python",
+            "C",
+            "Java",
+            "Ruby",
+            "Perl",
+            "HTML",
+            "JavaScript",
+            "C++",
+            "CSS"
+        ],
+        "plataformas_soportadas": ["Windows", "macOS", "Linux", "UNIX"]
+    }
+]
