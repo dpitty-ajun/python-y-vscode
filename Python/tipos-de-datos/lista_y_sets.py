@@ -1,11 +1,11 @@
 frutas = ["manzana", "naranja", "plátano", "uva", "pera"] # , "sandía", "melón", "kiwi", "mango", "fresa"]
 verduras = ["zanahoria", "brócoli", "apio", "cebolla", "tomate"] # , "calabaza", "pepino", "coliflor", "pimiento", "apio"]
 
-print("Tenemos {} Frutas".format(len(frutas)))
+print("Tenemos {} Frutas".format(len(frutas))) # str.format incluye contenido de variables en una cadena de caracteres
 print("Tenemos {} Verduras".format(len(verduras)))
 
 print("\nLos valores de la lista se accesan por índice, iniciando en cero.")
-print("El primer valor de la lista de frutas es:""", frutas[0])
+print("El primer valor de la lista de frutas es:", frutas[0])
 
 ultima_fruta = frutas.pop()
 print("\nLa última fruta es", ultima_fruta)
