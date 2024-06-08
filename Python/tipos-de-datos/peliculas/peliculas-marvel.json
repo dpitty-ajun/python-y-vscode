@@ -1,0 +1,62 @@
+[
+    {
+        "titulo": "Iron Man",
+        "fecha": 2008,
+        "rating": 8.5,
+        "personajesPrincipales": ["Iron Man", "Pepper Potts", "James Rhodes"]
+    },
+    {
+        "titulo": "The Incredible Hulk",
+        "fecha": 2008,
+        "rating": 7.2,
+        "personajesPrincipales": ["Bruce Banner", "Betty Ross", "Emil Blonsky"]
+    },
+    {
+        "titulo": "Iron Man 2",
+        "fecha": 2010,
+        "rating": 7.0,
+        "personajesPrincipales": ["Iron Man", "Pepper Potts", "James Rhodes"]
+    },
+    {
+        "titulo": "Thor",
+        "fecha": 2011,
+        "rating": 7.0,
+        "personajesPrincipales": ["Thor", "Jane Foster", "Loki"]
+    },
+    {
+        "titulo": "Captain America: The First Avenger",
+        "fecha": 2011,
+        "rating": 6.9,
+        "personajesPrincipales": ["Steve Rogers", "Peggy Carter", "Bucky Barnes"]
+    },
+    {
+        "titulo": "The Avengers",
+        "fecha": 2012,
+        "rating": 8.0,
+        "personajesPrincipales": ["Iron Man", "Captain America", "Thor"]
+    },
+    {
+        "titulo": "Iron Man 3",
+        "fecha": 2013,
+        "rating": 7.2,
+        "personajesPrincipales": ["Iron Man", "Pepper Potts", "James Rhodes"]
+    },
+    {
+        "titulo": "Thor: The Dark World",
+        "fecha": 2013,
+        "rating": 6.9,
+        "personajesPrincipales": ["Thor", "Jane Foster", "Loki"]
+    },
+    {
+        "titulo": "Captain America: The Winter Soldier",
+        "fecha": 2014,
+        "rating": 7.8,
+        "personajesPrincipales": ["Captain America", "Black Widow", "Winter Soldier"]
+    },
+    {
+        "titulo": "Guardians of the Galaxy",
+        "fecha": 2014,
+        "rating": 8.1,
+        "personajesPrincipales": ["Star-Lord", "Gamora", "Drax"]
+    }
+]

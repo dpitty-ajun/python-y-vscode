@@ -1,0 +1,62 @@
+[
+    {
+        "titulo": "Batman Begins",
+        "fecha": 2005,
+        "rating": 8.2,
+        "personajesPrincipales": ["Batman", "Alfred Pennyworth", "Ra's al Ghul"]
+    },
+    {
+        "titulo": "Superman Returns",
+        "fecha": 2006,
+        "rating": 6.0,
+        "personajesPrincipales": ["Superman", "Lois Lane", "Lex Luthor"]
+    },
+    {
+        "titulo": "The Dark Knight",
+        "fecha": 2008,
+        "rating": 9.0,
+        "personajesPrincipales": ["Batman", "Joker", "Harvey Dent"]
+    },
+    {
+        "titulo": "Watchmen",
+        "fecha": 2009,
+        "rating": 7.6,
+        "personajesPrincipales": ["Rorschach", "Dr. Manhattan", "Silk Spectre"]
+    },
+    {
+        "titulo": "Green Lantern",
+        "fecha": 2011,
+        "rating": 5.5,
+        "personajesPrincipales": ["Hal Jordan", "Carol Ferris", "Sinestro"]
+    },
+    {
+        "titulo": "Man of Steel",
+        "fecha": 2013,
+        "rating": 7.0,
+        "personajesPrincipales": ["Superman", "Lois Lane", "General Zod"]
+    },
+    {
+        "titulo": "Batman v Superman: Dawn of Justice",
+        "fecha": 2016,
+        "rating": 6.4,
+        "personajesPrincipales": ["Batman", "Superman", "Wonder Woman"]
+    },
+    {
+        "titulo": "Wonder Woman",
+        "fecha": 2017,
+        "rating": 7.4,
+        "personajesPrincipales": ["Wonder Woman", "Steve Trevor", "Ares"]
+    },
+    {
+        "titulo": "Aquaman",
+        "fecha": 2018,
+        "rating": 7.0,
+        "personajesPrincipales": ["Aquaman", "Mera", "Orm"]
+    },
+    {
+        "titulo": "Joker",
+        "fecha": 2019,
+        "rating": 8.5,
+        "personajesPrincipales": ["Joker", "Arthur Fleck", "Murray Franklin"]
+    }
+]
