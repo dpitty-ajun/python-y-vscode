@@ -37,32 +37,34 @@ def carga_diccionarios_dc_marvel():
 
 def num_pelicula_por_personaje(peliculas):
     resultado = {}
+
     for pelicula in peliculas:
         for personaje in pelicula["personajesPrincipales"]:
+            # si el personaje todavía no ha sido registrado
+            # al diccionario, agregar una entrada nueva
             if personaje not in resultado:
                 resultado[personaje] = 0
+
             resultado[personaje] += 1
-                # resultado[personaje] = []
-            # resultado[personaje].append(pelicula)
+
     return resultado
 
 
-if __name__ == "__main__":
-    lista_dc, lista_marvel = carga_diccionarios_dc_marvel() # tuplas
-    mejor_dc, mejor_marvel = mejor_dc_y_marvel(lista_dc, lista_marvel) # tuplas
-    print("\nLa película de DC con mejor rating es:", mejor_dc)
-    print("\nLa película de Marvel con mejor rating es:", mejor_marvel)
+lista_dc, lista_marvel = carga_diccionarios_dc_marvel() # tuplas
+mejor_dc, mejor_marvel = mejor_dc_y_marvel(lista_dc, lista_marvel) # tuplas
+print("\nLa película de DC con mejor rating es:", mejor_dc)
+print("\nLa película de Marvel con mejor rating es:", mejor_marvel)
 
-    todas_las_peliculas = [
-        *lista_dc,
-        *lista_marvel
-    ]
+todas_las_peliculas = [
+    *lista_dc,
+    *lista_marvel
+]
 
-    resultados = filtro_peliculas(todas_las_peliculas, 8.5)
-    print("\nPeliculas con raiting mayor o igual a 8.5")
-    pprint(resultados)
+resultados = filtro_peliculas(todas_las_peliculas, 8.5)
+print("\nPeliculas con raiting mayor o igual a 8.5")
+pprint(resultados)
 
-    diccionario_personajes = num_pelicula_por_personaje(lista_dc)
-    print("\nPeliculas por personaje")
-    pprint(diccionario_personajes)
-# for cada registro, hacer un array de las palabras del título
+diccionario_personajes = num_pelicula_por_personaje(lista_dc)
+print("\nNúmero de peliculas por personaje")
+pprint(diccionario_personajes)
+# por cada registro, hacer un array de las palabras del título
