@@ -17,6 +17,8 @@ partes = cadena_caracteres.split(" ")
 print("\nSplit convirte la cadena en una lista")
 print(partes)
 
+partes_unidas = "-".join(partes)
+print("\nJoin une valores de una lista con un delimitador:", partes_unidas)
 
 print("\n\nFunciones para validar cadena de caracteres:")
 
